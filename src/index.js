@@ -6,4 +6,4 @@ import { Provider } from 'react-redux';
 import App from './components';
 import store from './store';
 
-ReactDOM.render(<Provider store={store}><Router basename="/"><App /></Router></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}><Router basename="/moonpig"><App /></Router></Provider>, document.getElementById('root'));
