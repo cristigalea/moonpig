@@ -1,0 +1,26 @@
+.button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+.button__danger {
+    background-color:#ee447d;
+    color: #fff;
+}
+
+.button__primary {
+    background-color: #57e99a;
+    color: #fff;
+}
